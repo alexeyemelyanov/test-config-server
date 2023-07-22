@@ -1,3 +1,7 @@
 property1: app1-property1-from-parent
 property2: app1-property2-from-parent
 overridable-property: overridable-property-value-from-parent
+spring:
+  cloud:
+    config:
+      override-none: true
