@@ -4,4 +4,5 @@ overridable-property: overridable-property-value-from-parent
 spring:
   cloud:
     config:
+      allowOverride: true
       override-none: true
